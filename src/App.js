@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import CardList from './components/card'
+import CardList from './components/card-list.component.jsx'
 import './App.css';
 
 
