@@ -15,13 +15,15 @@ class App extends Component {
       members: []
     };
   }
-}
+
 
 componentDidMount() {
   fetch('https://randomuser.me/api/?seed=foobar')
   .then(response=> response.json())
   .then(users => this.setState({members: users}));
+
 }
+
 
 render() {
   return (
@@ -29,6 +31,7 @@ render() {
     <p> {this.state.members} </p>
     </div>
   )
+}
 }
 
 export default App;
