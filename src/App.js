@@ -1,37 +1,16 @@
 import React, { Component } from 'react';
-
-import { render } from '@testing-library/react';
-
+import CardList from './components/card'
 import './App.css';
 
 
-import './App.css';
-
-class App extends Component {
-  constructor() {
-    super();
-
-    this.state = {
-      members: []
-    };
-  }
-
-
-componentDidMount() {
-  fetch('https://randomuser.me/api/?seed=foobar')
-  .then(response=> response.json())
-  .then(users => this.setState({members: users}));
-
-}
-
-
-render() {
+function App() {
   return (
-    <div className= "App"> 
-    <p> {this.state.members} </p>
+    <div>
+
     </div>
-  )
+  );
 }
-}
+
+
 
 export default App;
