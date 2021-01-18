@@ -6,8 +6,8 @@ import '.card/card-list.styles.css';
 
 function CardList (props) { 
     <div className= 'card-list'>
-        
-        <Card key={member.id}></Card>
+
+        <Card></Card>
 
     </div>
 }
