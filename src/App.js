@@ -1,13 +1,15 @@
 import React from 'react';
 import CardList from './components/card/card-list.component.jsx'
+import Wrapper from './components/wrapper/wrapper.jsx'
 import './App.css';
 
 
 function App() {
   return (
     <div>
-
-      <CardList></CardList>
+      <Wrapper>
+        <CardList></CardList>
+      </Wrapper>
 
     </div>
   );
