@@ -1,23 +1,20 @@
-import React from 'react';
+import React, { Component } from 'react';
 import CardList from './components/cardlist/card-list.component.jsx';
 import Wrapper from './components/wrapper/wrapper.jsx';
 import './App.css';
 
 
-function App() {
-  
+class App extends Component() {
+  render() {
   return (
     <div>
       <Wrapper>
-        <CardList>
-         
-        </CardList>
+        <CardList> </CardList>
       </Wrapper>
 
     </div>
   );
+ }
 }
-
-
 
 export default App;
