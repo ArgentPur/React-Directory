@@ -1,5 +1,5 @@
 import React from 'react';
-import CardList from './components/card/card-list.component.jsx'
+import CardList from './components/cardlist/card-list.component.jsx'
 import Wrapper from './components/wrapper/wrapper.jsx'
 import './App.css';
 
