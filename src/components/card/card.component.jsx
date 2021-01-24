@@ -1,11 +1,12 @@
 import React from 'react';
+import './card.styles.css';
 
-function Card (props) {
+export function Card (props) {
+    return (
     <div className= 'card-container'>
-
-        <Card></Card>
-
+            <h2>{props.name.first}</h2>
     </div>
+    )
 }
 
 export default Card;

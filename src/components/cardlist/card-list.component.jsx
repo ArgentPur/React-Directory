@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { Card } from './card/card.component.jsx';
+import { Card } from '../card/card.component.jsx';
 
-import '.card/card-list.styles.css';
+import './cardlist.styles.css';
 
 function CardList (props) { 
     <div className= 'card-list'>
