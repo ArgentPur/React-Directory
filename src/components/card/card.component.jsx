@@ -4,7 +4,7 @@ import './card.styles.css';
 export function Card (props) {
     return (
     <div className= 'card-container'>
-            <h2>{props.name.first}</h2>
+            <h2>{this.props.name.first}</h2>
     </div>
     )
 }
