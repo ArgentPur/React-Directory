@@ -7,7 +7,10 @@ import './cardlist.styles.css';
 function CardList (props) { 
     <div className= 'card-list'>
 
-        <Card></Card>
+        <Card>
+            <h2>{this.props.name}</h2>
+            <h2>{this.props.email}</h2>
+        </Card>
 
     </div>
 }
