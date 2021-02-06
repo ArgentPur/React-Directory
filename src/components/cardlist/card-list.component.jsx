@@ -4,15 +4,14 @@ import { Card } from '../card/card.component.jsx';
 
 import './cardlist.styles.css';
 
-function CardList (props) { 
+export const CardList = props =>  (
     <div className= 'card-list'>
+        {props.members.map(member => (
+            <Card key={member.id} member= {member}/>
+        ))}
+</div>
 
-        <Card>
-            <h2>{this.props.name}</h2>
-            <h2>{this.props.email}</h2>
-        </Card>
-
-    </div>
-}
+)
+ 
 
 export default CardList;
